@@ -3,7 +3,6 @@ import java.awt.event.*;
 import java.io.*;
 import java.sql.*;
 import javax.swing.*;
-import java.util.*;
 import java.net.*;
 
 public class Editwindow extends JInternalFrame implements ActionListener  {
@@ -79,6 +78,8 @@ Connection conn;
 	    
 	    panel1.add(LblEmp_No);
 	    panel1.add(TxtEmp_No);
+	    
+	    panel6.add(TxtEmp_Code)
 	    
 	    
         panel2 = new JPanel();
